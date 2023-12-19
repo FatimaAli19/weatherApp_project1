@@ -1,4 +1,44 @@
-.bg-color{
-    background: linear-gradient(to bottom,#7d1485, #1f1e1e);
-    color: #fff;
-   }
+   
+  /* search section */
+  .search-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .convert-button {
+    height: 66px;
+    width: 200px; /* Adjust width as needed */
+  }
+
+ .bg-color{
+  background: linear-gradient(to bottom,#7d1485, #1f1e1e);
+  color: #fff;
+ }
+
+ 
+/* info */
+ .datesec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  color: #fff; 
+  border-radius: 0.25rem;
+}
+
+.date {
+   padding-left: 400px;
+}
+
+.time {
+  padding-right: 200px;
+}
+.bg-green{
+  background-color: #10C99C;
+}
+  .bfont{
+    font-size: 30px;
+    font-weight: bold;
+  }
